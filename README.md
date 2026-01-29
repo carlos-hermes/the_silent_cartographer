@@ -36,7 +36,7 @@ Transform Kindle highlight exports into a structured knowledge management system
 
 2. **Install dependencies:**
    ```bash
-   cd "C:\Users\carlo\Documents\The Silent Cartographer"
+   cd "C:\Users\YOUR_USER\Documents\The Silent Cartographer"
    pip install -e .
    ```
 
@@ -61,9 +61,9 @@ Transform Kindle highlight exports into a structured knowledge management system
 
 4. **Create required folders** (if they don't exist):
    ```bash
-   mkdir "C:\Users\carlo\Documents\The Library\Books"
-   mkdir "C:\Users\carlo\Documents\The Library\Ideas"
-   mkdir "C:\Users\carlo\Documents\Kindle Exports\processed"
+   mkdir "C:\Users\YOUR_USER\Documents\The Library\Books"
+   mkdir "C:\Users\YOUR_USER\Documents\The Library\Ideas"
+   mkdir "C:\Users\YOUR_USER\Documents\Kindle Exports\processed"
    ```
 
 ## Usage
@@ -74,7 +74,7 @@ Transform Kindle highlight exports into a structured knowledge management system
    - Open Kindle for PC/Mac
    - Go to your book's notebook
    - Click "Export" to save as HTML
-   - Save to `C:\Users\carlo\Documents\Kindle Exports\`
+   - Save to `C:\Users\YOUR_USER\Documents\Kindle Exports\`
 
 2. **Run the processor:**
    ```bash
@@ -157,7 +157,7 @@ To run TSC automatically on a schedule:
    - Action: Start a program
    - Program: `python` (or full path to Python)
    - Arguments: `-m tsc digest --type spaced`
-   - Start in: `C:\Users\carlo\Documents\The Silent Cartographer`
+   - Start in: `C:\Users\YOUR_USER\Documents\The Silent Cartographer`
 
 3. Repeat for other scheduled tasks as needed
 
@@ -194,7 +194,7 @@ Make sure you've set your API key in `config.env`. The key should start with `sk
 
 ### "No HTML files found in Kindle directory"
 Check that:
-- HTML files are in `C:\Users\carlo\Documents\Kindle Exports\`
+- HTML files are in `C:\Users\YOUR_USER\Documents\Kindle Exports\`
 - Files haven't already been processed (moved to `processed/`)
 
 ### "Email not configured"
